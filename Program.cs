@@ -9,5 +9,5 @@ for (int i = 0; i < initArray.Length; i++)
         j++;
     }
 }
-for (int i = 0; i < j; i++) Console.Write($"{resultArray[i]}, ");
 if (j == 0) Console.WriteLine("В массиве нет строк длиной 3 символа и менее.");
+else for (int i = 0; i < j; i++) Console.Write($"{resultArray[i]}, ");
